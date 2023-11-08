@@ -20,6 +20,7 @@ const handleAddToCart= async()=>{
 
   let food=[]
   for(const item of data){
+    console.log(food , data , item)
     if(item.id===props.foodItem._id){
       food=item;
 

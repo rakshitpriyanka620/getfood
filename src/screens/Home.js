@@ -10,7 +10,7 @@ const [foodItem, setfoodItem] = useState([]); // Initialize as an empty array
 
 
   const loadData = async () => {
-    let response = await fetch("http://localhost:5000/api/foodData", {
+    let response = await fetch("http://localhost:3000/api/foodData", {
       method: "POST",
       headers: {
         'Content-Type': 'application/json'
